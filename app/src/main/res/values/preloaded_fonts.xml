@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/akronim</item>
+        <item>@font/bubblegum_sans</item>
+        <item>@font/chewy</item>
+        <item>@font/covered_by_your_grace</item>
+        <item>@font/finger_paint</item>
+        <item>@font/gloria_hallelujah</item>
+        <item>@font/jolly_lodger</item>
+        <item>@font/waiting_for_the_sunrise</item>
+    </array>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentlife">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/alogo"
+        android:supportsRtl="true"
+        android:name=".DatabaseIntentApplication"
+        android:theme="@style/Theme.StudentLife">
+
+        <activity
+            android:name=".AboutActivity"
+            android:theme="@style/Theme.StudentLife.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:theme="@style/Theme.StudentLife.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.StudentLife.NoActionBar"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.StudentLife.NoActionBar"
+            android:exported="true" />
+        <activity
+            android:name=".TimerSelector"
+            android:theme="@style/Theme.StudentLife.NoActionBar"
+            android:exported="true" />
+        <activity
+            android:name=".AlgebraQuiz"
+            android:theme="@style/Theme.StudentLife.NoActionBar"
+            android:exported="true" />
+        <activity
+            android:name=".DifficultySelector"
+            android:theme="@style/Theme.StudentLife.NoActionBar"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true"
+            android:theme="@style/Theme.StudentLife.NoActionBar" />
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".DrawerActivity"
+            android:exported="true"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.StudentLife.NoActionBar" />
+        <activity
+            android:name=".MultiplicationTest"
+            android:theme="@style/Theme.StudentLife.NoActionBar"
+            android:exported="true"/>
+        <activity
+            android:name=".DivisionTest"
+            android:theme="@style/Theme.StudentLife.NoActionBar"
+        android:exported="true"/>
+        <activity
+            android:name=".AdditionTest"
+            android:exported="true"
+            android:label="@string/title_activity_subtraction_test"
+            android:theme="@style/Theme.StudentLife.NoActionBar" />
+        <activity
+            android:name=".SubtractionTest"
+            android:exported="true" />
+        <activity android:name=".PastTest"
+            android:exported="true"/>
+        <activity
+            android:name=".StatisticsTest"
+            android:exported="true" />
+        <!--CHANGE THIS BACK TO LOGINACTIVITY ORIGINAL-->
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.StudentLife.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">StudentLife</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="math_question">Question</string>
+    <string name="next_button">Next</string>
+    <string name="answera_button">A</string>
+    <string name="answerb_button">B</string>
+    <string name="answerc_button">C</string>
+    <string name="answerd_button">D</string>
+    <string name="multiplication_button">MULTIPLICATION</string>
+    <string name="subtraction_button">SUBTRACTION</string>
+    <string name="stats_button">STATISTICS</string>
+    <string name="addition_button">ADDITION</string>
+    <string name="title_activity_stats">StatsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_subtraction_test">Subtraction Test</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_multiplication">multiplicationActivity</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="alreadyaccount">Not Registered? <b>Sign Up</b> </string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_about">Additional Info</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="large_text">
+        "include information about us and the app here"
+    </string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="haveaccount">Existing Account? <b>Login</b></string>
+    <string name="authorsText2">\tJuan Mendoza \t\t\t\t\t\t\t\t Email: mendozaj17@students.ecu.edu</string>
+    <string name="authorsText1">Bryan Mora \t\t\t\t\t\t\t\t\t Email: morab19@students.ecu.edu</string>
+    <string name="authorsText3">Jajuan Hall \t\t\t\t\t\t\t\t\t Email: halljaj17@students.ecu.edu</string>
+    <string name="authorsText4">Phillip Cash \t\t\t\t\t\t\t\t\t Email: cashp18@students.ecu.edu</string>
+    <string name="authorsText5">Jalen Glenn \t\t\t\t\t\t\t\t\t Email: glennj17@students.ecu.edu</string>
+    <string name="authorsText6">Ahmed Baig \t\t\t\t\t\t\t\t\t Email: baiga19@students.ecu.edu</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="menu_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

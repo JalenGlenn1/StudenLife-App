@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1080877715434",
+    "project_id": "studentlife-423002",
+    "storage_bucket": "studentlife-423002.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080877715434:android:4280cfc19f1f46ec15ac93",
+        "android_client_info": {
+          "package_name": "com.example.studentlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080877715434-93s58fnjda8n7q6l54re2h4qjeo2msmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXTwKjPZqx5TbPuVCO8NO2_n5ZsEQWARg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080877715434-93s58fnjda8n7q6l54re2h4qjeo2msmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
