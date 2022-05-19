@@ -1,1 +1,1 @@
-# StudenLife-App
+# StudentLife-App
